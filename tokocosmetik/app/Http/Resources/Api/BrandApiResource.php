@@ -16,4 +16,6 @@ class BrandApiResource extends JsonResource
     {
         return parent::toArray($request);
     }
+    
+    
 }
