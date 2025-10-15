@@ -120,11 +120,11 @@ export function BrowserPage() {
                 <img src="/assets/images/icons/search.svg" alt="icon" className="size-5 shrink-0" />
               </div>
             </a>
-            <a href="my-cart.html" className="flex size-[44px] items-center justify-center rounded-full bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+            <Link to={"/cart"} className="flex size-[44px] items-center justify-center rounded-full bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
               <div className="flex h-full w-full shrink-0 items-center justify-center rounded-full bg-white">
                 <img src="/assets/images/icons/cart.svg" alt="icon" className="size-5 shrink-0" />
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
