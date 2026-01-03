@@ -258,12 +258,12 @@ export function BrowserPage() {
                 </a>
               </li>
               <li className="flex items-center">
-                <a href="view-orders.html">
+                <Link to={`/check-booking`}>
                   <div className="flex w-[50px] flex-col items-center gap-1">
                     <img src="/assets/images/icons/car.svg" alt="icon" className="size-6 shrink-0" />
                     <p className="text-sm leading-[21px]">Orders</p>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="" className="relative -top-[23px]">
